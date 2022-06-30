@@ -240,18 +240,18 @@ Main components
   padding-top:5px;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(124, 106, 55, 0.85);
   height: 50px;
   width: 100%;
   z-index: 3000;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(224, 184, 149, 0.3);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 @media only screen and (min-width: 768px) {
   .cd-header {
     height: 80px;
-  background: rgba(0, 0, 0, 0.86);
+  background: rgba(170, 105, 19, 0.86);
     box-shadow: none;
   }
 }
@@ -640,19 +640,24 @@ body::before {
   z-index: 2;
 }
 .cd-section:first-of-type > div {
-  background-image: url('../images/1.jpg');
+  /* background-image: url('../images/blog/1.jpg'); */ 
+  background:rgb(245, 208, 128);
 }
 .cd-section:nth-of-type(2) > div {
-  background-image: url('../images/2.jpg');
+  /* background-image: url('../images/2.jpg'); */
+  background:rgb(245, 208, 128);
 }
 .cd-section:nth-of-type(3) > div {
-  background-image: url('../images/3.jpg');
+  /* background-image: url('../images/3.jpg'); */
+  background:rgb(245, 208, 128);
 }
 .cd-section:nth-of-type(4) > div {
-  background-image: url('../images/4.jpg');
+  /* background-image: url('../images/4.jpg'); */
+  background:rgb(245, 208, 128);
 }
 .cd-section:nth-of-type(5) > div {
-  background-image: url('../images/5.jpg');
+  /* background-image: url('../images/5.jpg'); */
+  background:rgb(245, 208, 128);
 }
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;
